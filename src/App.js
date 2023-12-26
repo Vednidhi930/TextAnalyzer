@@ -8,14 +8,14 @@ import React, { useState } from 'react'
 
 function App() {
 
- /* const [color, setColor] = useState("light");
+  const [color, setColor] = useState("light");
   const [text, setText] = useState("Enable Dark Mode");
   const [alert, setAlert] = useState(null);
 
   const showalert = (message, type) => {
     setAlert({
       message: message,
-      type: type
+      type: type 
     })
 
   }
@@ -42,35 +42,21 @@ function App() {
 
     } 
 
-  } */
+  } 
 
-  let mystyle={color:"red",backgroundColor:"black"}
-
-
-
-
-
- const[date,setDate]=useState(new Date().toLocaleTimeString());
-
- const clock=()=>{
-  
-  setDate(new Date().toLocaleTimeString())
- }
-
- setInterval(clock,1000);
-
+ 
 
 
   return (
 
     <>
-    {  /* <Navbar titles="Text Analyzer" mode={color} toggle={changeColor} Text={text} />
+    <Navbar titles="Text Analyzer" mode={color} toggle={changeColor} Text={text} />
       <Alert alert={alert} />
       <div className="container">
         <Textform heading="Convert Your Text" mode={color} Alert={alert} showAlert={showalert} />
-      </div> */}
+      </div> 
 
-      <h1 style={mystyle}>{date}</h1>
+      
     </> 
 
   );
