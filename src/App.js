@@ -24,7 +24,7 @@ function App() {
     console.log("sueess")
     if (color === "light") {
       setColor("dark")
-      document.body.style.backgroundColor = "#4D3436"
+      document.body.style.backgroundColor = "#262626"
       setText("Disable Dark Mode")
       showalert("Dark mode has been enabled", "success")
      
