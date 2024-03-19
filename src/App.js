@@ -1,6 +1,5 @@
 import './App.css';
 import Alert from './Components.js/Alert';
-import Clock from './Components.js/Clock';
 import Navbar from './Components.js/Navbar';
 import Textform from './Components.js/Textform';
 import React, { useState } from 'react'
